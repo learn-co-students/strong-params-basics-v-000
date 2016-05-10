@@ -1,6 +1,6 @@
 <%= form_for(@post) do |f| %>
   <label>Post title:</label><br>
   <%= f.text_field :title %><br>
-
+  <p><%=@post.description%></p>
   <%= f.submit %>
 <% end %>
