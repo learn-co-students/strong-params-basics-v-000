@@ -1,3 +1,8 @@
+# Right now I'm trying to submit this lesson to see if my
+# New local environment is working or not.  I'm trying to see
+# If I can push to githum & also communicate with the Learn.co
+# server so the little red doughnuts turn into green doughnuts
+# :)
 class PostsController < ApplicationController
 	def index
 		@posts = Post.all
