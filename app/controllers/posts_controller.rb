@@ -13,8 +13,7 @@ class PostsController < ApplicationController
 
 	def create
 	  @post = Post.create(post_params(:title, :description))
-	  redirect_to "/posts/#{@post.id}"
-		# post_path(@post)
+	  redirect_to post_path(@post)
 	end
 
 	def update
