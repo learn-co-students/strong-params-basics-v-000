@@ -15,6 +15,7 @@ gem 'coffee-rails'
 # gem 'therubyracer', platforms: :ruby
 gem 'bootsnap'
 # Use jquery as the JavaScript library
+gem 'rb-readline'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
