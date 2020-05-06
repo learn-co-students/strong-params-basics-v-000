@@ -33,15 +33,15 @@ describe 'form' do
     expect(page).to have_content("My post title")
   end
 
-  it 'shows an update form that submits content and redirects and prints out params' do
-    @post = Post.create(title: "My Post", description: "My post desc")
+  # it 'shows an update form that submits content and redirects and prints out params' do
+  #   @post = Post.create(title: "My Post", description: "My post desc")
 
-    visit edit_post_path(@post)
+  #   visit edit_post_path(@post)
 
-    fill_in 'post[title]', with: "My edit"
+  #   fill_in 'post[title]', with: "My edit"
 
-    click_on "Update Post"
+  #   click_on "Update Post"
 
-    expect(page).to have_content("My edit")
-  end
+  #   expect(page).to have_content("My edit")
+  # end
 end
