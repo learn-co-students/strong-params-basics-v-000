@@ -1,6 +1,6 @@
 # Strong Params Basics
 
-## What are Strong Params?
+## What are Strong Params????
 
 To understand the goal of strong params, let's pretend that you run a pharmacy. What would happen if you let all prescription orders come through without checking for valid prescriptions, driver licenses, etc.? (Spoiler alert: you'd probably end up in jail). It would be criminal to run a pharmacy without verifying that orders were legitimate. In the same way, Rails  wanted to shore up some security vulnerabilities. Since Rails 4+, developers are required to whitelist the parameters that are permitted  to be sent to the database from a form.
 
