@@ -12,7 +12,6 @@ class PostsController < ApplicationController
 	end
 
 	def create
-		params.inspect
 		@post = Post.new(post_params(:title, :description))
 		@post.save
 		redirect_to post_path(@post)
@@ -28,7 +27,7 @@ class PostsController < ApplicationController
 	  @post = Post.find(params[:id])
 	end
 
-	private
+	private 
 
 	def post_params(*args)
 		params.require(:post).permit(*args)
